@@ -1,4 +1,4 @@
-package task1;
+package tasks;
 
 public class Triple<T, U, V> {
     private T first;

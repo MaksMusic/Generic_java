@@ -1,4 +1,4 @@
-package task1;
+package tasks;
 
 public class FindMax {
     public static void main(String[] args) {
