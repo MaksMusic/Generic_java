@@ -1,6 +1,6 @@
 package Generics;
 
-public class Generics1 {
+public class lesson1_NoGenerics {
     public static void main(String[] args) {
         Object[] objects = new Object[10];
         objects[0] = 15;

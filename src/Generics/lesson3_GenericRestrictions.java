@@ -3,7 +3,7 @@ package Generics;
 import java.util.Arrays;
 import java.util.List;
 
-public class GenericRestrictions {
+public class lesson3_GenericRestrictions {
     public static void main(String[] args) {
 
     }
@@ -46,6 +46,12 @@ public class GenericRestrictions {
         public static <T> T getValue() {
             return (T) value;
         }
+
     }
+
+
+
+
+
 
 }
