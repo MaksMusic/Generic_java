@@ -49,4 +49,40 @@ public class lesson2_GenericsClass {
     }
 
 
+    static class Persone{
+
+    }
+
+    interface  ExcellentStudent{
+
+    }
+
+    interface  NewStudent{
+
+    }
+
+    //класс который принмиает параметр типа который может быть Persone (или его наследником) и если он имплементит
+    //интерфейсы ExcellentStudent и NewStudent
+    static class Student<T extends Persone & ExcellentStudent & NewStudent > {
+
+        // Объявление массива
+        T[] array;
+
+        // Объявление переменной
+        T variable;
+
+        // констурктор
+        public Student(T variable) {
+            this.variable = variable;
+        }
+
+        // Объявление метода с дженериком
+        public void print(T input) {
+            System.out.println("Input: " + input);
+        }
+
+        // Объявление листа с дженериком
+        ArrayList<T> list = new ArrayList<>();
+    }
+
 }

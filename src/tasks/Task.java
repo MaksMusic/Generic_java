@@ -30,7 +30,7 @@ abstract class Human {
     }
 }
 
-class Student extends Human {
+class Student extends Human{
     private int group;
 
     public Student(String name, int age, String gender, int group) {
@@ -94,7 +94,6 @@ public class Task {
         listSuper = students;
         //listSuper = teachers; ошибка компиляции
         listSuper = applicantsOnly;
-
 
         allHumans.add(s1);
         allHumans.add(t1);
