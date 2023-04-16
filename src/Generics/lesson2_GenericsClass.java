@@ -85,4 +85,5 @@ public class lesson2_GenericsClass {
         ArrayList<T> list = new ArrayList<>();
     }
 
+
 }
